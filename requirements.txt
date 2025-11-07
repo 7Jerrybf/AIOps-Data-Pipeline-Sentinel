@@ -1,0 +1,8 @@
+dagster
+dagit
+fastapi
+uvicorn[standard]
+google-generativeai
+requests
+python-dotenv
+dagster-slack
