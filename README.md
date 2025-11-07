@@ -48,7 +48,7 @@
 * 數據管道 (Orchestration): Dagster
 * AI 診斷 API (The Brain): FastAPI
 * 伺服器 (Server): Uvicorn
-* AI 核心 (LLM): Google Gemini API (gemini-pro)
+* AI 核心 (LLM): Google Gemini API (gemini-flash-lite-latest)
 * 核心語言: Python 3.11+
 * 依賴管理: venv & requirements.txt
 * 環境變數: python-dotenv (.env)
