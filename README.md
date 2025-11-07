@@ -14,7 +14,7 @@
 
 當數據管道失敗時，系統會自動介入。AI 診斷引擎會分析根本原因，並立即在 10 秒內將詳細的分析報告推送到 Slack，將手動除錯時間 (MTTR) 從數小時縮短到數秒鐘。
 
-![AIOps 哨兵的最終 Slack 警報](httpsSAM_PLACEHOLDER_FOR_SLACK_IMAGE_URL)
+![AIOps 哨兵的最終 Slack 警報]([httpsSAM_PLACEHOLDER_FOR_SLACK_IMAGE_URL](https://github.com/7Jerrybf/AIOps-Data-Pipeline-Sentinel/blob/main/assets/slack_alert.png))
 
 
 ---
@@ -41,7 +41,7 @@
 3.  **迴路 (The Loop - Hook)**：Dagster 的 `@failure_hook` (哨兵) 會在失敗時自動觸發，調用 Brain API，並使用 `requests` 將 AI 結果發送到 Slack Webhook。
 
 
-![系統架構圖]()
+![系統架構圖](https://github.com/7Jerrybf/AIOps-Data-Pipeline-Sentinel/blob/main/assets/Untitled%20diagram-2025-11-07-013145.png)
 ---
 
 ### 🚀 技術棧 (Technology Stack)
