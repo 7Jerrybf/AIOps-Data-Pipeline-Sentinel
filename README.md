@@ -58,7 +58,7 @@
 ### 🔧 安裝與啟動 (Setup & Usage)
 1. 克隆專案並設定環境
 ```Bash
-git clone [您的 GitHub Repo URL]
+git clone https://github.com/7Jerrybf/AIOps-Data-Pipeline-Sentinel.git
 cd aio_sentinel
 python -m venv venv
 venv\Scripts\activate
